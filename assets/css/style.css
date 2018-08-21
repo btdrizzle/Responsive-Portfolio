@@ -299,13 +299,16 @@ input[type=submit]:hover {
     h1 {
         font-size: 1.5em;
     }
+    ul {
+        margin: auto;
+    }
     
     #header {
         height: 60px;
     }
     #name {
         margin: auto;
-        padding: 15px;
+        padding: 18px;
         height: 60px;
         width: 100%;
 
@@ -314,7 +317,6 @@ input[type=submit]:hover {
         display:none;
     }
     .smallnav {
-        display: block;
         margin: auto;
         font-size: 1.2em;
         height: 39px;
@@ -329,7 +331,7 @@ input[type=submit]:hover {
     .smallnav li {
         padding: 10px 10px;
         margin: auto;
-        float: left;
+        display: inline-block
          
     }
     .smallnav a {
